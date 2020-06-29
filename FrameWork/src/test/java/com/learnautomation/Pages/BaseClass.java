@@ -28,6 +28,7 @@ public class BaseClass {
 	public ConfigDataProvider config;
 	public ExtentReports report;
 	public ExtentTest logger;
+	public ExtentTest log;
 	
 	//push to git
 	
@@ -52,6 +53,7 @@ public class BaseClass {
 	}
 
 	@BeforeClass
+	
 	public void setup() {
 		 Reporter.log("Start browser",true);
 		 
