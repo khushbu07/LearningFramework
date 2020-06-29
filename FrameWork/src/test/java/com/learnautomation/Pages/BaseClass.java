@@ -38,6 +38,7 @@ public class BaseClass {
 	    Reporter.log("Setting Up report and Test is getting ready",true);
 	 
 		excel = new ExcelDataProvider();
+		
 		config=new ConfigDataProvider();
 		
 		ExtentHtmlReporter extent= new ExtentHtmlReporter(new File(System.getProperty("user.dir")+
