@@ -30,12 +30,12 @@ public class BaseClass {
 	public ExtentTest logger;
 	
 	//push to git
+	
  @BeforeSuite
  
 	public void setUpSuite() {
 	 
-	 
-	 Reporter.log("Setting Up report and Test is getting ready",true);
+	    Reporter.log("Setting Up report and Test is getting ready",true);
 	 
 		excel = new ExcelDataProvider();
 		config=new ConfigDataProvider();
