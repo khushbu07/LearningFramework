@@ -89,6 +89,7 @@ public void teardownMethod(ITestResult result) throws IOException {
 
 	report.flush();
 	
+	
 	Reporter.log("Test Completed",true);
 	
 	
