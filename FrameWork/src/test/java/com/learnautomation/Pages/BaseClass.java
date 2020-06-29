@@ -29,8 +29,9 @@ public class BaseClass {
 	public ExtentReports report;
 	public ExtentTest logger;
 	
-	
+	//push to git
  @BeforeSuite
+ 
 	public void setUpSuite() {
 	 
 	 
