@@ -55,6 +55,7 @@ public class BaseClass {
 	@BeforeClass
 	
 	public void setup() {
+		
 		 Reporter.log("Start browser",true);
 		 
 		driver = BrowserFactory.StartApplication(driver, config.getBrowser(),config.getqaUrl());
