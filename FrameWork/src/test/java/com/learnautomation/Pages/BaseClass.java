@@ -28,9 +28,7 @@ public class BaseClass {
 	public ConfigDataProvider config;
 	public ExtentReports report;
 	public ExtentTest logger;
-	public ExtentTest log;
 	
-	//push to git12345
 	
  @BeforeSuite
  
