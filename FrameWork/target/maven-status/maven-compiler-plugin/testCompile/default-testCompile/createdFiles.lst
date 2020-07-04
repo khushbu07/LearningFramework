@@ -1,1 +1,8 @@
 com/learnautomation/Utility/BrowserFactory.class
+com/learnautomation/Utility/ExcelDataProvider.class
+com/learnautomation/TestCases/LoginTestCRM.class
+com/learnautomation/Pages/LoginPage.class
+com/learnautomation/Utility/ConfigDataProvider.class
+com/learnautomation/Utility/Helper.class
+com/learnautomation/TestCases/Trial.class
+com/learnautomation/Pages/BaseClass.class

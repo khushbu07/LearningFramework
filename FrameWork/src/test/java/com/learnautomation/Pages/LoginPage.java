@@ -13,7 +13,7 @@ public class LoginPage {
 		this.driver = ldriver;
 	}
 	
-	@FindBy(xpath="//h4[text()='Login as']//following::a[8]") WebElement icon;
+	@FindBy(xpath="//h4[text()='Login as']//following::a[4]") WebElement icon;
 	
 	
 	@FindBy(id="username") WebElement uname;
